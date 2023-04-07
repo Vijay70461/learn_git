@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(102, 12, 12);
+}
+.nbar>ul{
+    padding: 30px 20px 30px 100px;
+}
+.nbar>ul>li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family:'Chivo Mono', monospace;  
+    font-weight: 700;
+    color: white;
+}
+.nbar>ul>li:hover{
+    color: rgb(102, 12, 12);
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

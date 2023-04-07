@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+  box-shadow: 1px 2px 10px black;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.logo > a {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+.logo > a:hover {
+  color: darkblue;
+}
+.navbar > li {
+  display: inline-block;
+  padding: 0 20px;
+  list-style: none;
+}
+.navbar > li > a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.navbar > li > a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.pages {
+  padding: 130px 0 50px 100px;
+}
+.pages1 {
+  padding: 130px 0 50px 30px;
+}
+.services > a {
+  border: 2px solid black;
+  margin: 10px 50px 0 50px;
+  padding: 10px;
+  background-color: antiquewhite;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.services > a > h3 {
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+}
+.services > a > h2 {
+  padding: 0 0 0 10px;
+}
+.dynamic {
+  border: 1px solid black;
+  margin: 100px 60px 0 60px;
+  padding: 5px 10px 5px 10px;
+  background-color: antiquewhite;
+}
+.dynamic > h3 {
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+.dynamic > h2 {
+  padding: 5px;
+}
+.dynamic > p {
+  padding: 5px;
+}
+.dysebtn {
+  background-color: black;
+  color: white;
+  margin: 50px 0 0 700px;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+.bio{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: blue;
+}
+b{
+    color: red;
+}
+p{
+    margin-left: 400px;
+    font-size: 25px;
+}
+hr{
+    width: 800px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50px;
+}

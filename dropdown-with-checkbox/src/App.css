@@ -1,0 +1,25 @@
+.dropdown {
+  text-align: center;
+}
+.dropdown > button {
+  padding: 8px 25px;
+  margin: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.dropdown > button:hover {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+label:hover,
+input:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0 3px 15px 0 black;
+}
+.app__headerText {
+  font-family: "Arvo", serif;
+  padding: 5px;
+}
+.app > h3 {
+  padding: 20px;
+}
+.app__headerImage {
+  width: 50px;
+  height: 40px;
+  padding: 5px;
+}

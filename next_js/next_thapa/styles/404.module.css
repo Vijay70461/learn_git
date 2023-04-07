@@ -1,0 +1,30 @@
+.error {
+  text-align: center;
+  padding: 100px 0;
+}
+.error > h1 {
+  padding: 0 0 40px 0;
+  font-size: 50px;
+}
+.error > a {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 10px;
+}
+.error > a:hover {
+  background-color: black;
+  color: white;
+}
+.error > button {
+  margin: 20px 10px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.error > button:hover {
+  background-color: black;
+  color: white;
+}

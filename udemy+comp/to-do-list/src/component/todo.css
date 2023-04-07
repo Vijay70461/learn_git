@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(18, 18, 51);
+}
+.todoheader {
+  padding: 8px 0;
+  color: white;
+}
+.child-name {
+  text-align: center;
+}
+.addItems input {
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 0px solid;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+.addItems button {
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: darkgreen;
+  font-weight: bolder;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  color: white;
+}
+.eachItem h3 {
+  color: white;
+  margin: 20px 8px 0 0;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 22px;
+}
+.eachItem > button {
+  font-size: 16px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.showItems > button {
+  margin: 20px 0 0 0;
+  padding: 3px 15px;
+  font-size: 18px;
+  background-color: rgb(30, 7, 84);
+  color: white;
+}

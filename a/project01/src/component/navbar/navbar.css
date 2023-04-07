@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 3vw;
+  box-shadow: 0px 3px 15px #b0afaf;
+}
+.navleft {
+  display: inline-block;
+}
+.navleft > h1 {
+  font-size: 40px;
+  color: #4d4b4b;
+}
+.navleft > h1 > span {
+  color: rgb(38, 38, 153);
+}
+.navright > ul > li > a {
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+}
+
+.navright > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1vw;
+  position: relative;
+}
+.navright > ul > li > a:hover {
+  color: rgb(42, 36, 30);
+}
+.navright > ul > li > a:hover::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid black;
+  left: 0px;
+  bottom: -3px;
+  width: 100%;
+}
+.navright > ul > li > ul {
+  list-style: none;
+}
+.navright > ul > li > ul > li > a {
+  text-decoration: none;
+  color: black;
+  display: none;
+}

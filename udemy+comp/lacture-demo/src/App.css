@@ -1,0 +1,14 @@
+button {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 100px;
+}
+h3:nth-child(1) {
+  font-size: 35px;
+}
+h4 {
+  font-size: 22px;
+}
